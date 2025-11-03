@@ -159,7 +159,6 @@ footer a:hover{text-decoration:underline;}
   <div class="card" data-index="7">
     <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%20PBI.png?raw=true" alt="Dashboard 8">
     <div class="card-info" data-color="cyan">
-      <h3>🟦 Dashboard 8 – Talent Placement vs Own Effort (Q3 2025)</h3>
       <p>Displays Q3 2025 placement results (July–September) comparing Talent and Own Effort outcomes by ST and course to monitor short-term performance.</p>
     </div>
     <div class="caption">Dashboard 8 – Q3 Comparison</div>

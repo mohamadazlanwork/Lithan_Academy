@@ -175,7 +175,6 @@ footer {text-align:center;font-size:13px;color:gray;padding:25px 0;}
 <!-- === LITHAN PLACEMENT DASHBOARD === -->
 <div id="placement" class="content-box dashboard-container">
   <header>
-    <img src="https://raw.githubusercontent.com/mohamadazlanwork/Logoall/main/Lithan%20logo.png" alt="Lithan Logo">
     <h1>Lithan Academy Placement Dashboard<br><span>(Demo Data)</span></h1>
   </header>
 
@@ -188,29 +187,6 @@ footer {text-align:center;font-size:13px;color:gray;padding:25px 0;}
         <div class="kpi"><h3>Own Effort (D1)</h3><p id="kpiOwnD1">4</p></div>
         <div class="kpi"><h3>Own Effort (D2)</h3><p id="kpiOwnD2">91</p></div>
       </div>
-
-     <div class="chart-grid">
-  <div class="chart-card">
-    <h4>Placement by Specialist</h4>
-    <canvas id="chartSpecialist"></canvas>
-    <button onclick="downloadChart('chartSpecialist')">📥 Download Chart</button>
-  </div>
-  <div class="chart-card">
-    <h4>Placement by Course</h4>
-    <canvas id="chartCourse"></canvas>
-    <button onclick="downloadChart('chartCourse')">📥 Download Chart</button>
-  </div>
-  <div class="chart-card">
-    <h4>Talent vs Own Effort</h4>
-    <canvas id="chartRatio"></canvas>
-    <button onclick="downloadChart('chartRatio')">📥 Download Chart</button>
-  </div>
-  <div class="chart-card">
-    <h4>Candidate Grading</h4>
-    <canvas id="chartGrade"></canvas>
-    <button onclick="downloadChart('chartGrade')">📥 Download Chart</button>
-  </div>
-</div>
 
       <div class="fact-card">
         <h4 style="text-align:center;color:var(--maroon);margin-bottom:10px;">Average F.A.C.T Scores</h4>

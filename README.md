@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>eduCLaaS HR Analytics Dashboards (Demo)</title>
+<title>HR Analytics Dashboards (Demo)</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -94,7 +94,7 @@ footer a:hover{text-decoration:underline;}
 
 <body>
 <header>
-  <h1>eduCLaaS HR Analytics Dashboards</h1>
+  <h1>HR Analytics Dashboards</h1>
   <p>Created by Azlan</p>
   <div class="disclaimer">⚠️ Demo visuals for portfolio – no real data used.</div>
 </header>

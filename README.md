@@ -2,17 +2,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>HR Analytics Dashboards (Demo)</title>
+<title>HR Dashboards (Demo)</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
 :root {
-  --maroon: #3a0a2a;
-  --pink: #e45a84;
-  --text-light: #fff;
-  --text-muted: #bbb;
-  --glass-bg: rgba(255,255,255,0.08);
-  --border-glass: rgba(255,255,255,0.15);
+  --maroon:#3a0a2a;
+  --pink:#e45a84;
+  --text-light:#fff;
+  --text-muted:#bbb;
+  --glass-bg:rgba(255,255,255,0.08);
+  --border-glass:rgba(255,255,255,0.15);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{
@@ -62,12 +62,8 @@ header p{color:var(--pink);font-weight:500;font-size:1.1rem;margin-bottom:15px;}
 .card-info[data-color="blue"] h3{color:#3FA9F5;}
 .card-info[data-color="green"] h3{color:#00C853;}
 .card-info[data-color="orange"] h3{color:#FF9800;}
-.card-info[data-color="yellow"] h3{color:#FFEB3B;}
-.card-info[data-color="red"] h3{color:#E53935;}
 .card-info[data-color="purple"] h3{color:#BA68C8;}
-.card-info[data-color="brown"] h3{color:#8D6E63;}
 .card-info[data-color="cyan"] h3{color:#00BCD4;}
-.card-info[data-color="lime"] h3{color:#CDDC39;}
 
 /* ===== CAPTION ===== */
 .caption{position:absolute;bottom:0;width:100%;background:linear-gradient(180deg,transparent,rgba(0,0,0,.7));text-align:center;padding:12px;font-size:.95rem;color:#fff;letter-spacing:.3px;}
@@ -94,85 +90,63 @@ footer a:hover{text-decoration:underline;}
 
 <body>
 <header>
-  <h1>HR Analytics Dashboards</h1>
-  <p>Created by Azlan</p>
+  <h1> HR Dashboards</h1>
   <div class="disclaimer">⚠️ Demo visuals for portfolio – no real data used.</div>
 </header>
 
 <section class="gallery">
+  <!-- Dashboard 1 -->
   <div class="card" data-index="0">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dahsboard%201.jpg?raw=true" alt="Dashboard 1">
+    <img src="https://github.com/mohamadazlanwork/Lithan_Academy/blob/main/Dashboard%20Az/Hr%20Employee%20Overview.jpg?raw=true" alt="HR Employee Overview">
     <div class="card-info" data-color="blue">
-      <p>Compares Own Effort and Talent Team placements across SCTP (D2) and Non-SCTP (D1) categories, segmented by Specialist Trainer (ST) and course type.</p>
+      <h3>HR Employee Overview</h3>
+      <p>Summarizes organization-wide employee metrics including headcount, average salary, gender diversity, departmental distribution, and performance trends.</p>
     </div>
-    <div class="caption">Dashboard 1 – Placement Overview</div>
+    <div class="caption">Dashboard 1 – HR Employee Overview</div>
   </div>
 
+  <!-- Dashboard 2 -->
   <div class="card" data-index="1">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashbaord%202.jpg?raw=true" alt="Dashboard 2">
+    <img src="https://github.com/mohamadazlanwork/Lithan_Academy/blob/main/Dashboard%20Az/Talent%20Dashboard.jpg?raw=true" alt="Talent Dashboard">
     <div class="card-info" data-color="green">
-      <p>Presents the overall placement structure showing 557 total placements, broken down into CCP, Talent Team, and Own Effort categories with sub-classification by D1 and D2 types.</p>
+      <h3>Talent Dashboard</h3>
+      <p>Provides insights into candidate demographics, gender ratio, age group trends, course group distribution, and job search activity across programs.</p>
     </div>
-    <div class="caption">Dashboard 2 – Total Placement Summary</div>
+    <div class="caption">Dashboard 2 – Talent Dashboard</div>
   </div>
 
+  <!-- Dashboard 3 -->
   <div class="card" data-index="2">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%203.jpg?raw=true" alt="Dashboard 3">
+    <img src="https://github.com/mohamadazlanwork/Lithan_Academy/blob/main/Dashboard%20Az/Career%20Goals%20%26%20Placement%20Insights.jpg?raw=true" alt="Career Goals and Placement Insights">
     <div class="card-info" data-color="orange">
-      <p>Tracks monthly placement performance across 2024–2025 by category (SCTP, Non-SCTP, CCP) and source (Own Effort vs Talent), visualizing placement peaks and troughs over time.</p>
+      <h3>Career Goals & Placement Insights</h3>
+      <p>Analyzes learner readiness, grading distribution, expected salary trends, and common career goals across different course groups and role preferences.</p>
     </div>
-    <div class="caption">Dashboard 3 – Placement Trend Analysis</div>
+    <div class="caption">Dashboard 3 – Career Goals & Placement Insights</div>
   </div>
 
+  <!-- Dashboard 4 -->
   <div class="card" data-index="3">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%204.jpg?raw=true" alt="Dashboard 4">
-    <div class="card-info" data-color="yellow">
-      <p>Highlights CCP category distributions (Graduate, Employer OJT, Train & Place) and compares monthly totals from July to October 2025 between Own Effort and Talent sources.</p>
-    </div>
-    <div class="caption">Dashboard 4 – CCP Category Trend</div>
-  </div>
-
-  <div class="card" data-index="4">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%205.jpg?raw=true" alt="Dashboard 5">
-    <div class="card-info" data-color="red">
-      <p>Analyzes candidate engagement levels by course and SCTP status, identifying top reasons for low touch such as non-responsiveness, high salary expectations, and lack of communication.</p>
-    </div>
-    <div class="caption">Dashboard 5 – High & Low Touch</div>
-  </div>
-
-  <div class="card" data-index="5">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%206.jpg?raw=true" alt="Dashboard 6">
+    <img src="https://github.com/mohamadazlanwork/Lithan_Academy/blob/main/Dashboard%20Az/Resignation%20Trend%20Over%20Time.jpg?raw=true" alt="Resignation Trend Over Time">
     <div class="card-info" data-color="purple">
-      <p>Summarizes placement personas, job roles, industries, and median salaries, including time-to-placement, company type, and demographic breakdown of placed learners.</p>
+      <h3>Resignation & Attrition Analysis</h3>
+      <p>Examines attrition rates, average tenure, and salary comparisons across departments to identify key patterns behind employee turnover.</p>
     </div>
-    <div class="caption">Dashboard 6 – Salary Insights</div>
+    <div class="caption">Dashboard 4 – Resignation & Attrition Analysis</div>
   </div>
 
-  <div class="card" data-index="6">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%207.jpg?raw=true" alt="Dashboard 7">
-    <div class="card-info" data-color="brown">
-      <p>Shows the complete learner lifecycle from enrollment to graduation and placement, including dropouts, age segmentation, and reasons for opting out of placement.</p>
-    </div>
-    <div class="caption">Dashboard 7 – Learner Funnel</div>
-  </div>
-
-  <div class="card" data-index="7">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%20PBI.png?raw=true" alt="Dashboard 8">
+  <!-- Dashboard 5 -->
+  <div class="card" data-index="4">
+    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashboard%20PBI.png?raw=true" alt="Q3 Comparison Dashboard">
     <div class="card-info" data-color="cyan">
-      <p>Displays Q3 2025 placement results (July–September) comparing Talent and Own Effort outcomes by ST and course to monitor short-term performance.</p>
+      <h3>Q3 Comparison Overview</h3>
+      <p>Displays Q3 2025 placement performance comparing Talent and Own Effort outcomes by Specialist Trainer and course type for short-term evaluation.</p>
     </div>
-    <div class="caption">Dashboard 8 – Q3 Comparison</div>
-  </div>
-
-  <div class="card" data-index="8">
-    <img src="https://github.com/mohamadazlanwork/Logoall/blob/main/Dashbaord%20PBI%203.png?raw=true" alt="Dashboard 9">
-    <div class="card-info" data-color="lime">
-      <p>Breaks down candidate allocation by ST, course, and FACT grading (A–D), showing overall readiness distribution and category status for SCTP and Non-SCTP learners.</p>
-    </div>
-    <div class="caption">Dashboard 9 – Allocation & Grading</div>
+    <div class="caption">Dashboard 5 – Q3 Comparison Overview</div>
   </div>
 </section>
 
+<!-- Lightbox -->
 <div class="lightbox" id="lightbox">
   <span class="lb-close" id="lbClose">&times;</span>
   <div class="lb-controls">
